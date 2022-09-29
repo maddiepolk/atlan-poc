@@ -5,8 +5,8 @@
   description: ''
   preferred_slug: XeXyjcHLyqTW9i6ywgzmrH
   elements:
-  - title: Distribution by Model Year and Make Name for Cargo
-    name: Distribution by Model Year and Make Name for Cargo
+  - title: Distribution by Model Year and Make Name
+    name: Distribution by Model Year and Make Name
     model: atlan_poc
     explore: atlan_poc
     type: looker_column
@@ -14,7 +14,6 @@
     pivots: [ymm_md.make_name]
     filters:
       atlan_poc.current_flg: 'Yes'
-      vehicle_type_d.veh_type_name: "%Cargo%"
       atlan_poc.model_year: 20%
     sorts: [ymm_md.make_name, atlan_poc.model_year]
     limit: 500
