@@ -1,3 +1,4 @@
+
 view: atlan_poc_ext {
 
   measure: vehicle_count {

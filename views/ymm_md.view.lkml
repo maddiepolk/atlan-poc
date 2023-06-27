@@ -1,3 +1,4 @@
+
 view: ymm_md {
   sql_table_name: @{schema}."YMM_MD"
     ;;

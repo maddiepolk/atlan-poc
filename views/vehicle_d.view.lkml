@@ -1,3 +1,4 @@
+
 view: vehicle_d {
   sql_table_name: @{schema}."VEHICLE_D"
     ;;

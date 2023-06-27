@@ -5,6 +5,7 @@
   description: ''
   preferred_slug: XeXyjcHLyqTW9i6ywgzmrH
   elements:
+
   - title: Distribution by Model Year and Make Name for Cargo
     name: Distribution by Model Year and Make Name for Cargo
     model: atlan_poc
@@ -15,6 +16,7 @@
     filters:
       atlan_poc.current_flg: 'Yes'
       vehicle_type_d.veh_type_name: "%Cargo%"
+
       atlan_poc.model_year: 20%
     sorts: [ymm_md.make_name, atlan_poc.model_year]
     limit: 500
